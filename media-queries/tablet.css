@@ -1,0 +1,9 @@
+.product-cards--container {
+    display: flex;
+    width: 940px;
+    flex-wrap: wrap;
+}
+
+.plans-containter--slider {
+    overflow-x: hidden;
+}
