@@ -428,15 +428,12 @@ main {
 }
 
 .plans-container--card {
-  /* Ponemos esta propiedad porque el hijo tiene que sobre salir de contenedor */
   position: relative;
-  /* Esta propiedad va acompañada de "scroll-snap-type"que la tiene el padre y es para que me centre cuando el scroll esta en medio de dos tarjetas */
   scroll-snap-align: center;
   width: 70%;
   min-width: 190px;
   max-width: 280px;
   height: 249px;
-  /* Le ponemos 50 arriba y auto para que en ambos lados un medida proporcionada */
   margin: 50px auto 0;
   padding: 0 15px;
   background-color: var(--just-white);
